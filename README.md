@@ -2,5 +2,5 @@
 
 <h3>
   1. Download Visual Studio Code for Windows 
-  [I'm an inline-style link](https://www.google.com)
 </h3>
+  [I'm an inline-style link](https://www.google.com)
