@@ -1,0 +1,39 @@
+[
+    {
+        /// Change directory
+        "key": "f8",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "cd ${fileDirname}\n"
+        }
+    },
+    {
+        /// Compile exe file
+        "key": "f9",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": { 
+            "text": "g++ -std=c++11 -O2 -o ${fileBasenameNoExtension}.exe ${fileBasenameNoExtension}.cpp -Wall\n"
+        }
+    },
+    {
+        /// Run .exe file
+        "key": "f10",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": ".\\${fileBasenameNoExtension}.exe\n"
+        }
+    },
+    {
+        /// Delete .exe file
+        "key": "ctrl+delete",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\ndel ${fileBasenameNoExtension}.exe\n"
+        }
+    },
+    {
+        /// Kill Terminal
+        "key": "ctrl+shift+x",
+        "command": "workbench.action.terminal.kill"
+    }
+]
