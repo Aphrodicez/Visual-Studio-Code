@@ -1,5 +1,5 @@
 # Visual-Studio-Code
 
-<h2>
+<h3>
   1. Download Visual Studio Code for Windows
-</h2>
+</h3>
